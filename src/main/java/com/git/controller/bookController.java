@@ -30,4 +30,8 @@ private final BookService  bookService;
         return "Steven Perez Cortes";
     }
 
+    @GetMapping("pages")
+    public String getPages(){
+        return "Not pages";
+    }
 }
