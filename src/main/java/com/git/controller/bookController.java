@@ -25,5 +25,9 @@ private final BookService  bookService;
         return bookService.getBook();
     }
 
+    @GetMapping("author")
+    public String getAuthor(){
+        return "Steven Perez Cortes";
+    }
 
 }
